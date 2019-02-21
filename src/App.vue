@@ -10,10 +10,11 @@
 </template>
 
 <script>
-import moment from "moment";
-import { version } from "ant-design-vue/es";
+import moment from 'moment';
+import { version } from 'ant-design-vue';
+
 export default {
-  name: "App",
+  name: 'App',
   data() {
     return {
       moment,
